@@ -8,8 +8,8 @@ if(isset($_POST['send'])){
     $message.= 'Message:' . $_POST['message'];
 }
 
-$headers= "From: Woodland\r\n";\
-$headers.='Content-Type: text/plain; charset=utf-8';
+$headers= "From: Woodland\r\n";
+$headers .= 'Content-Type: text/plain; charset=utf-8';
 $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
 if ($email){
     $headers .= "\r\nReply-To: $email";
