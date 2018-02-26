@@ -8,9 +8,10 @@ $(window).scroll(function(){
        } 
     if($(this).scrollTop()<250){
         $(".logo").attr('src','img/logoH.png');
+        $(".navlink").css({"color":"white"});
     }
   	else {
-    	$(".navlink").css({"color":"white"});    
+    	$(".navlink").css({"color":"#5c5c5c"});    
     }
 });
 
