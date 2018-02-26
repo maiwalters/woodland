@@ -2,10 +2,13 @@
 
 
 $(window).scroll(function(){
-	if($(this).scrollTop()>0) {
+	if($(this).scrollTop()>250) {
        $(".navlink").css({"color":"#5c5c5c"});
        $(".logo").attr('src','img/logo.png');
        } 
+    if($(this).scrollTop()<250){
+        $(".logo").attr('src','img/logoH.png');
+    }
   	else {
     	$(".navlink").css({"color":"white"});    
     }
