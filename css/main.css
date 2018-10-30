@@ -180,7 +180,6 @@ textarea {
 }
 #about{
     width: 100%;
-    height:auto;
   }
 
 .left{
@@ -238,6 +237,11 @@ textarea {
 .services tr td p{
     color: white;
     padding-left: 3%;
+}
+
+.separate{
+  height: 1%;
+  width: 100%;
 }
 
 #contact{
