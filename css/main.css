@@ -239,10 +239,7 @@ textarea {
     padding-left: 3%;
 }
 
-.separate{
-  height: 50%;
-  width: 100%;
-}
+
 
 #contact{
     height: 100vh;
@@ -665,4 +662,10 @@ label span.error{
     h3 {
         page-break-after: avoid;
     }
+}
+
+@media (max-width: 1050px) { 
+#about{
+  height: 200vh;
+}
 }
