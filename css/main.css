@@ -668,4 +668,8 @@ label span.error{
 #about{
   height: 200vh;
 }
+
+.mynav-ul{
+  width: 50%;
+}
 }
